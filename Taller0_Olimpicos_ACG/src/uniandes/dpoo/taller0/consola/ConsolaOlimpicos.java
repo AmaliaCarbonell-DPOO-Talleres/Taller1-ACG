@@ -127,7 +127,7 @@ public class ConsolaOlimpicos
 	
 	private void ejecutarPaisAtleta()
 	{
-		System.out.println("\n\t\t" + "País de un Atleta " + "\n");
+		System.out.println("\n" + "País de un Atleta " + "\n");
 		String nombreAtleta = input("Por favor ingrese el nombre de un atleta: ");
 		String respuesta= calculadora.PaisAtleta(nombreAtleta);
 		System.out.println (respuesta);
